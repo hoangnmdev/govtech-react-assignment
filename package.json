@@ -62,6 +62,9 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.30.0"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.37.0"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
