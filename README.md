@@ -17,22 +17,44 @@ This is a submission for the [GovTech's 2025 assignment](https://gist.github.com
 
 <h2 id="project-structure">🗄️ Project Structure</h2>
 
+
 ```
 src
+├─ apis
+│  ├─ search.test.ts
+│  └─ search.ts
 ├─ App.tsx
+├─ AppRouter.tsx
 ├─ assets
-│  ├─ react.svg
-│  └─ singapore-lion.png
-├─ components
-│  ├─ error
-│  │  └─ index.tsx
 │  ├─ icons
 │  │  ├─ CrossIcon.tsx
 │  │  ├─ LogoIcon.tsx
 │  │  └─ SearchIcon.tsx
-│  └─ ui
-│     └─ HighLightText
-│        └─ index.tsx
+│  └─ react.svg
+├─ components
+│  ├─ common
+│  │  ├─ ErrorBoundary
+│  │  │  └─ index.tsx
+│  │  ├─ ErrorNotFound
+│  │  │  ├─ index.test.tsx
+│  │  │  └─ index.tsx
+│  │  └─ HighLightText
+│  │     └─ index.tsx
+│  ├─ SearchBox
+│  │  ├─ index.test.tsx
+│  │  └─ index.tsx
+│  ├─ SearchPageBanner
+│  │  └─ index.tsx
+│  └─ SearchResult
+│     ├─ index.test.tsx
+│     └─ index.tsx
+├─ hook
+│  ├─ UseDebounce
+│  │  └─ useDebounce.tsx
+│  ├─ UseOutsideClick
+│  │  └─ useOutsideClick.tsx
+│  └─ UseSearchSuggesion
+│     └─ useSearchSugession.tsx
 ├─ index.css
 ├─ main.tsx
 ├─ mock
@@ -42,20 +64,8 @@ src
 │  └─ mock-filter.ts
 ├─ pages
 │  └─ SearchPage
-│     ├─ components
-│     │  ├─ SearchBox
-│     │  │  ├─ index.test.tsx
-│     │  │  └─ index.tsx
-│     │  ├─ SearchPageBanner
-│     │  │  └─ index.tsx
-│     │  └─ SearchResult
-│     │     ├─ index.test.tsx
-│     │     └─ index.tsx
 │     ├─ index.test.tsx
 │     └─ index.tsx
-├─ services
-│  ├─ search.test.ts
-│  └─ search.ts
 ├─ types
 │  └─ index.ts
 ├─ utils
