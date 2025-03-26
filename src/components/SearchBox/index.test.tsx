@@ -3,9 +3,9 @@ import SearchBox from "../SearchBox";
 import "@testing-library/jest-dom/jest-globals";
 import { describe, it, expect, beforeEach } from "@jest/globals";
 import { jest } from "@jest/globals";
-import { useSearchSuggestions } from "../../../../hook/useSearchSugession";
+import { useSearchSuggestions } from "../../hook/UseSearchSuggesion/useSearchSugession";
 
-jest.mock("../../../../hook/useSearchSugession");
+jest.mock("../../hook/UseSearchSuggesion/useSearchSugession");
 
 const mockOnSearch = jest
   .fn<(query: string) => Promise<void>>()

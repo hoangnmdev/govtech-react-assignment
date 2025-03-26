@@ -6,11 +6,11 @@ import {jest } from "@jest/globals";
 import { ITextFormat } from "../../types";
 import "@testing-library/jest-dom/jest-globals";
 
-jest.mock("../../../../utils/highlight", () => ({
+jest.mock("../../utils/highlight", () => ({
   extractHighlightFromDocument: jest.fn((text) => [{ text, highlight: false }]),
 }));
 
-jest.mock("../../../../components/ui/HighLightText", () => ({ textFormats }: { textFormats: ITextFormat[] }) => (
+jest.mock("../common/HighLightText", () => ({ textFormats }: { textFormats: ITextFormat[] }) => (
   <span>{textFormats.map((format: ITextFormat, index: number) => <span key={index}>{format.text}</span>)}</span>
 ));
 

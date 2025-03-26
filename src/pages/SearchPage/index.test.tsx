@@ -22,7 +22,7 @@ const mockSearchResultData: ISearchResultResponse = {
 
 const fetchSearchResultMock = fetchSearchResult as unknown as jest.MockedFunction<typeof fetchSearchResult>;
 
-jest.mock("../../services/search.ts", () => ({
+jest.mock("../../apis/search.ts", () => ({
   fetchSearchResult: jest.fn(() =>
     Promise.resolve({ error: null, data: mockSearchResultData })
   ),

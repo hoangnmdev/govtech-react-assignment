@@ -43,7 +43,8 @@
       "src/index.tsx",
       "./coverage/",
       "./node_modules/",
-      "src/AppRouter.tsx"
+      "src/AppRouter.tsx",
+      "src/assets/"
     ],
     "coverageDirectory": "./coverage",
     "coverageReporters": [

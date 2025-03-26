@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-// import { NotFoundPage } from "./NotFoundPage";
 import { NotFoundPage } from ".";
 import "@testing-library/jest-dom/jest-globals";
 import { describe, it, expect } from "@jest/globals";
