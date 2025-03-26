@@ -5,7 +5,7 @@ A search portal SPA that allows users to search for information on the Governmen
 This is a submission for the [GovTech's 2025 assignment](https://gist.github.com/yuhong90/b5544baebde4bfe9fe2d12e8e5502cbf).
 
 ## 💻 Table of Contents
-
+- 🔗 [Deployments](#deployments)
 - 🗄️ [Project Structure](#project-structure)
 - ⚙️ [Installation](#installation)
 - 🚄 [Run the App](#run-the-app)
@@ -14,6 +14,10 @@ This is a submission for the [GovTech's 2025 assignment](https://gist.github.com
 - 📷 [Preview](#preview)
 - 📝 [Assumptions](#assumptions)
 
+<h2 id="deployments">🔗 Deployments</h2>
+
+### Vercel
+ [Vercel Domain Name 🔗](https://govtech-react-assignment-topaz.vercel.app/) ( Vercel has a cold-start phase so the project may take a minute to be ready)
 
 <h2 id="project-structure">🗄️ Project Structure</h2>
 
