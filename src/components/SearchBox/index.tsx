@@ -4,7 +4,7 @@ import { extractHightLightByKeyword } from "../../utils/highlight";
 import HighlightText from "../common/HighLightText";
 import { useDebounce } from "../../hook/UseDebounce/useDebounce";
 import { useOutsideClick } from "../../hook/UseOutsideClick/useOutsideClick";
-import { useSearchSuggestions } from "../../hook/UseSearchSuggesion/useSearchSugession";
+import { useSearchSuggestions } from "../../hook/UseSearchSuggesion/useSearchSugession"
 interface SearchBoxProps {
   onSearch: (keyword: string) => Promise<void>;
 }
